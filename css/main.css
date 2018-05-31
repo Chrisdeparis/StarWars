@@ -79,6 +79,7 @@ nav.top ul li {
 }
 
 .post2 p {
+  padding-top: 22px;
   text-align: left;
   font-size: 15px;
   line-height: 1.5;
@@ -125,6 +126,7 @@ p.top {
 ul.ft {
   list-style: none;
   text-decoration: underline;
+  padding-left: 0;
 }
 
 ul.ft li a {
