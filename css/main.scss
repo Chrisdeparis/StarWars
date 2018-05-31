@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css?family=Monoton');
+
+body { 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 22px;
+  color:#000;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+%bg {
+  padding: 25vmin 0;
+  background-size: cover;
+}
+
+.bg-one {
+  @extend %bg;
+  height: 100vh;
+}
+
+.bg-two {
+  @extend %bg;
+  background-image: url("../assets/kiloren-2x.jpg");
+  background-repeat: no-repeat;
+}
+
+.bg-three {
+  @extend %bg;
+  background-image: url("../assets/stormtroopers-2x.jpg");
+  background-repeat: no-repeat;
+}
+
+.solid {
+  margin: 0 auto;
+  width: 80%;
+  
+  text-align: center;
+  color: #000;
+}
+
+p {
+  margin: 0;
+  line-height: 1;
+  
+  small {
+    font-size: .5em;
+    color: rgba(255, 255, 255, 0.7)
+ 
+  }
+}
+
+nav.top {
+    text-transform: uppercase;
+    list-style: none;
+    flex-direction: row;
+    ul li{
+        list-style: none;
+    }
+    background-color:black;
+}
+.bg{
+    background:url('../assets/header-bg.png');
+    
+}
+.logo{
+    position: absolute;
+margin-left: auto;
+margin-right: auto;
+left: 0;
+right: 0;
+}
+.post {
+    margin-top: 90px;
+    padding-bottom:60px;
+}
+.post p {
+    text-align: left;
+    margin:25px 15px;
+    font-size: 16px;
+    line-height: 1.6;
+}
+.post2 p {
+    text-align: left;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+img.logo1{
+    display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+span.bold{
+    font-weight: bold;
+    font-style: italic;
+}
+
+div.section2{
+    padding-top:60px;
+    padding-bottom: 60px;
+}
+img.bt{
+    margin:30px 0;
+}
+body footer{
+    background-color:#000;
+}
+.vador{
+    @extend %bg;
+    background:url('../assets/darthvader_2x.jpg') fixed;
+    height: 100%;
+    width: 100%;
+    background-size:cover;
+    background-repeat: no-repeat;
+    // padding:0;
+    color:#afafaf;
+    
+}
+p.top {
+    margin-top:140px;
+    margin-bottom: 140px;
+}
+ul.ft {
+    list-style: none;
+    text-decoration: underline;
+    li a{
+        color:#afafaf;}
+}
+.socials img {
+    margin:20px 10px;
+}
+span.style-menu{
+    background-image: url('../assets/menu.png');
+}
+.bg-black{
+    background-color:#000;
+}
+
+ul.up li.nav-item{
+    
+    text-transform: uppercase;
+    color:#fff!important;
+    text-align: center;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color:rgba(255,255,255,1)
+}
+.navbar-dark .navbar-toggler-icon {
+    background-image:url('../assets/menu.png');
+}
+
+.bg-star {
+    background-image:url('../assets/header-bg.png');
+}
+
+@media screen and (min-width:768px){
+    .bg-star{
+        background:black;
+    }
+    
+}
+@media screen and (max-width:768px){
+    #navbarsExampleDefault > ul > li:nth-child(1){
+        padding-top: 10px;
+    }
+}
+
+button.navbar-toggler.ml-auto {
+    border:0;
+}
+.close {
+    background-image:url('../assets/close.png')!important;
+    float: left!important;
+    color:#fff;
+}
+
+button[aria-expanded="true"]{
+    
+    span#ham {
+        background-image:url('../assets/close.png')!important;
+        float: left!important;
+        color:#fff;
+        position: absolute;
+        left: 10px;
+        top:15px;
+    }
+}
+
