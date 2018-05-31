@@ -1,7 +1,7 @@
 $(window).scroll(function(e) {
-    $("#sidebar").stick_in_parent();
     
     parallax();
+    jQuery("#sidebar").stick_in_parent();
     
 })
   

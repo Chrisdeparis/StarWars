@@ -109,7 +109,7 @@ body footer{
 }
 .vador{
     @extend %bg;
-    background:url('../assets/darthvader_2x.jpg') fixed;
+    background:url('../assets/darthvader.jpg') fixed;
     height: 100%;
     width: 100%;
     background-size:cover;
@@ -161,6 +161,9 @@ ul.up li.nav-item{
     .bg-star{
         background:black;
     }
+    .mobile-links{
+        display:none;
+    }
     
 }
 @media screen and (max-width:768px){
@@ -169,6 +172,15 @@ ul.up li.nav-item{
     }
     #sidebar{
         display: none;
+    }
+    p.top {
+        display: none;
+    }
+    .vador{
+        padding: 15vmin 0;
+    }
+    .full-socials{
+        display:none;
     }
 }
 
@@ -198,4 +210,7 @@ button[aria-expanded="true"]{
     top:10px;
     position: absolute;
     
+}
+.links{
+    margin: 10px 0;
 }
