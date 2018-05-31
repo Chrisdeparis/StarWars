@@ -1,11 +1,15 @@
 $(window).scroll(function(e) {
+    $("#sidebar").stick_in_parent();
+    
     parallax();
+    
 })
   
   
   function parallax() {
     var scroll = $(window).scrollTop();
     var screenHeight = $(window).height();
+    
   
     $('.parallax').each(function() {
       var offset = $(this).offset().top;
@@ -17,6 +21,7 @@ $(window).scroll(function(e) {
         $(this).css('background-position', 'center ' + (( -scroll ) * 0.5) + 'px');
       }
     })
-  }
+    
 
+  }
 
