@@ -109,7 +109,7 @@ body footer{
 }
 .vador{
     @extend %bg;
-    background:url('../assets/darthvader.jpg');
+    background:url('../assets/darthvader.jpg') fixed;
     height: 100%;
     width: 100%;
     background-size:cover;
