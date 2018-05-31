@@ -167,6 +167,9 @@ ul.up li.nav-item{
     #navbarsExampleDefault > ul > li:nth-child(1){
         padding-top: 10px;
     }
+    #sidebar{
+        display: none;
+    }
 }
 
 button.navbar-toggler.ml-auto {
@@ -191,3 +194,8 @@ button[aria-expanded="true"]{
 }
 
 
+#sidebar{
+    top:10px;
+    position: absolute;
+    
+}

@@ -173,6 +173,9 @@ ul.up li.nav-item {
   #navbarsExampleDefault > ul > li:nth-child(1) {
     padding-top: 10px;
   }
+  #sidebar {
+    display: none;
+  }
 }
 
 button.navbar-toggler.ml-auto {
@@ -192,5 +195,10 @@ button[aria-expanded="true"] span#ham {
   position: absolute;
   left: 10px;
   top: 15px;
+}
+
+#sidebar {
+  top: 10px;
+  position: absolute;
 }
 /*# sourceMappingURL=main.css.map */
