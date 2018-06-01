@@ -9,7 +9,7 @@ body {
 }
 
 %bg {
-  padding: 25vmin 0;
+  padding: 25vmin 0 0;
   background-size: cover;
 }
 
@@ -182,9 +182,11 @@ ul.up li.nav-item{
     .full-socials{
         display:none;
     }
-    .bg-two.parallax, .bg-three.parallax {
-        padding: 35vmin 0;
+
+    .bg-two, .bg-three {
+        height:0vh;
     }
+    
 }
 
 button.navbar-toggler.ml-auto {
@@ -218,6 +220,3 @@ button[aria-expanded="true"]{
     margin: 10px 0;
 }
 
-.bg-two, .bg-three {
-    height: 130vh;
-}
